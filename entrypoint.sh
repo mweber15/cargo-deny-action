@@ -22,4 +22,6 @@ fi
 shift
 shift
 
+echo "..."
+echo "cargo-deny $*"
 cargo-deny $*
